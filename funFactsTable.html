@@ -1,87 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            table 
-            {
-                font-family:monospace;
-                font-size: 18px;
-                border-collapse:collapse;
-                width: 100%;
-            }
-            td, th 
-            {
-                border: 2px solid black;
-                text-align: left;
-                padding: 5px;
-            }
-        </style>
-        <link rel="stylesheet" type="text/css" href="styleSheet.css">
-    </head>
-    <body>
-        <h1 id = "PopC" class = "heading">Popular Culture</h1>
-        <img src = "https://img0.etsystatic.com/100/0/8765737/il_fullxfull.828831352_lm3a.jpg" class = "center">
-        <p class = "caption">
-            Cute Home-made Tardigrade Crochet Doll. 
-            <br>Source: <a href ="https://img0.etsystatic.com/100/0/8765737/il_fullxfull.828831352_lm3a.jpg">
-            "https://www.fashion-softs.top/cute-tardigrade-amigurumi-
-            kawaii-water-bear-amigurumi-tardigrade-moss-piglet-crochet-ooak-p-4394.html"</a>
-        </p>
-        <p class = "paragraph">While tardigrades may seem scary or weird to many people, they actually appear in more popular 
-            media than people think. Tardigrades have been featured in tv shows and the news. A small fanbase 
-            creates home-made tardigrade dolls, stickers, cartoon drawings, and even a song. 
-            Song can be found here: <a href = "https://www.youtube.com/watch?v=aCkSr0ugTIM">youtube.com</a>
-            <br>Below is a table containing examples of the following media in which tardigrades have appeared.</p>
-        <h2 id = "table">Tardigrades in Media</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Genre</th>
-                <th>Date(s) of Appearance</th>
-                <th>Notes</th>
-            </tr>
-            <tr>
-                <td>Cosmos: A Spacetime Odyssey</td>
-                <td>Nonfiction TV Show</td>
-                <td>March 16, 2014 & April 13, 2014</td>
-                <td>In episode 2, astrophysicist Neil deGrasse Tyson describes how tardigrades
-                    were able to withstand five great extinction events and still thrive today.
-                    In episode 6, Tyson describes micro-organisms that live within a dew drop, demonstrating 
-                    parameciums and tardigrades.
-                </td>
-            </tr>
-            <tr>
-                <td>Tardigrades Adventure Game by AnasAbdin</td>
-                <td>Video Game</td>
-                <td>Mid 2015</td>
-                <td>Tardigrades is a PC single-player adventure video game that prominently features 
-                    tardigrades. It was released on Steam.
-                </td>
-            </tr>
-            <tr>
-                <td>If Tardigrades wore pants...</td>
-                <td>Internet Meme</td>
-                <td>2016-current</td>
-                <td>Source: <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/060/518/afa.jpg">knowyourmeme.com</a></td>
-            </tr>
-            <tr>
-                <td>Star Trek: Discovery</td>
-                <td>Sci-Fi TV Show</td>
-                <td>October 1, 2017</td>
-                <td>In "Context is for Kings", the third episode of the space odyssey American TV series,
-                    an unknown creature annihilates the USS Glenn space ship. The Tardigrade (presented as a 
-                    large alien species) is later introduced as the perpetrator of the incident.
-                </td>
-            </tr>
-            <tr>
-                <td>Family Guy</td>
-                <td>Comedy TV Show</td>
-                <td>October 21, 2018</td>
-                <td>Stewie invents a shrinking machine that results in his son and him shrinking to a microscopic size. 
-                    They meet a group of friendly tardigrades who help them.
-                </td>
-            </tr>
-        </table>
-        <a href="tardigradeMain.html" id = "backToHome">Back to Home Page</a>
-    </body>
+
+<head>
+    <style>
+        table {
+            font-family: monospace;
+            font-size: 18px;
+            display: block;
+            padding-bottom: 20px;
+        }
+
+        td,
+        th {
+            border: 2px solid black;
+            text-align: left;
+            padding: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <h1 id="PopC" class="heading">Popular Culture</h1>
+                <img src="https://img0.etsystatic.com/100/0/8765737/il_fullxfull.828831352_lm3a.jpg" class="center">
+                <p class="caption">
+                    Cute Home-made Tardigrade Crochet Doll.
+                    <br>Source: <a href="https://img0.etsystatic.com/100/0/8765737/il_fullxfull.828831352_lm3a.jpg">
+                        "https://www.fashion-softs.top/cute-tardigrade-amigurumi-
+                        kawaii-water-bear-amigurumi-tardigrade-moss-piglet-crochet-ooak-p-4394.html"</a>
+                </p>
+                <p class="paragraph">While tardigrades may seem scary or weird to many people, they actually appear in
+                    more popular
+                    media than people think. Tardigrades have been featured in tv shows and the news. A small fanbase
+                    creates home-made tardigrade dolls, stickers, cartoon drawings, and even a song.
+                    Song can be found here: <a href="https://www.youtube.com/watch?v=aCkSr0ugTIM">youtube.com</a>
+                    <br>Below is a table containing examples of the following media in which tardigrades have appeared.</p>
+            </div>
+        </div>
+        <div class="col-md-auto">
+            <h2 id="table">Tardigrades in Media</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Genre</th>
+                    <th>Date(s) of Appearance</th>
+                    <th>Notes</th>
+                </tr>
+                <tr>
+                    <td>Cosmos: A Spacetime Odyssey</td>
+                    <td>Nonfiction TV Show</td>
+                    <td>March 16, 2014 & April 13, 2014</td>
+                    <td>In episode 2, astrophysicist Neil deGrasse Tyson describes how tardigrades
+                        were able to withstand five great extinction events and still thrive today.
+                        In episode 6, Tyson describes micro-organisms that live within a dew drop, demonstrating
+                        parameciums and tardigrades.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tardigrades Adventure Game by AnasAbdin</td>
+                    <td>Video Game</td>
+                    <td>Mid 2015</td>
+                    <td>Tardigrades is a PC single-player adventure video game that prominently features
+                        tardigrades. It was released on Steam.
+                    </td>
+                </tr>
+                <tr>
+                    <td>If Tardigrades wore pants...</td>
+                    <td>Internet Meme</td>
+                    <td>2016-current</td>
+                    <td>Source: <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/060/518/afa.jpg">knowyourmeme.com</a></td>
+                </tr>
+                <tr>
+                    <td>Star Trek: Discovery</td>
+                    <td>Sci-Fi TV Show</td>
+                    <td>October 1, 2017</td>
+                    <td>In "Context is for Kings", the third episode of the space odyssey American TV series,
+                        an unknown creature annihilates the USS Glenn space ship. The Tardigrade (presented as a
+                        large alien species) is later introduced as the perpetrator of the incident.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Family Guy</td>
+                    <td>Comedy TV Show</td>
+                    <td>October 21, 2018</td>
+                    <td>Stewie invents a shrinking machine that results in his son and him shrinking to a microscopic
+                        size.
+                        They meet a group of friendly tardigrades who help them.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <a href="tardigradeMain.html" id="backToHome">Back to Home Page</a>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
