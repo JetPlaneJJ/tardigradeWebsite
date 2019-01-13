@@ -29,8 +29,7 @@ $color: green;
 }
 ol li
 {
-    font-size: 18px;
-    font-family: monospace;
+    @extend .paragraph;
     line-height: 1.6;
 }
 .caption
@@ -54,10 +53,10 @@ img
 {
     max-width: 100%;
     height: auto;
-}
-img:hover
-{
-    transform: scale(1.3);
+    img:hover
+    {
+        transform: scale(1.3);
+    }
 }
 @media (max-width: 500px) 
 {
@@ -75,8 +74,8 @@ img:hover
     border-width: 2px;
     border-style: groove;
     padding: 10px;
-}
-#backToHome:hover
-{
-    background-color: darkslategray;
+    #backToHome:hover
+    {
+        background-color: darkslategray;
+    }
 }
